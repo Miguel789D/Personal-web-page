@@ -1,0 +1,122 @@
+@media screen and (max-width: 1400px) {
+  #profile {
+    height: 83vh;
+    margin-bottom: 6rem;
+  }
+  .section-container {
+    flex-wrap: wrap;
+  }
+  #contact,
+  #projects {
+    height: fit-content;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .logo {
+    display: none;
+  }
+  .hamburger-menu {
+    display: flex;
+  }
+  #experience,
+  .experience-details-container,
+  .project-details-container {
+    margin-top: 2rem;
+  }
+  #profile,
+  .section-container {
+    display: block;
+  }
+  .arrow {
+    display: none;
+  }
+  section,
+  .section-container {
+    height: fit-content;
+  }
+  section {
+    margin: 0 5%;
+  }
+  .section__pic-container,
+  .section__pic-container2 {
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 2rem;
+  }
+  .experience-details-container,
+  .experience-details-container2,
+  .project-details-container,
+  .project-details-container2 {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #contact,
+  footer {
+    height: 40vh;
+  }
+  #profile {
+    height: 83vh;
+    margin-bottom: 0;
+  }
+  .section__text {
+    font-size: 1rem;
+  }
+  footer nav {
+    height: fit-content;
+    margin-bottom: 2rem;
+  }
+  .section-container,
+  #socials-container,
+  .nav-links-container {
+    flex-wrap: wrap;
+  }
+  .about-details-container,
+  .experience-details-container,
+  .experience-details-container2,
+  .project-details-container,
+  .project-details-container2 {
+    margin: 0;
+  }
+  .about-details-container p,
+  .nav-links li a {
+    font-size: 1rem;
+  }
+  .experience-subtitle,
+  .experience-subtitle2,
+  .project-subtitle,
+  .project-subtitle2 {
+    font-size: 1.25rem;
+  }
+  .logo {
+    font-size: 1.5rem;
+  }
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+  .section__pic-container,
+  .section__pic-container2 {
+    width: auto;
+    height: 46vw;
+    justify-content: center;
+  }
+  .section__text {
+    font-size: 1.25rem;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .about-details-container,
+  .experience-details-container,
+  .experience-details-container2,
+  .project-details-container,
+  .project-details-container2 {
+    text-align: justify;
+  }
+}
+
+

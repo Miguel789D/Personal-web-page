@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Miguel Marquez</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Achievements</a></li>
+            <li><a href="#contact">Next step</a></li>
+        </ul>
+    </nav>
+
+    <nav id="hamburger-nav">
+        <div class="logo">Miguel Marquez</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Achievements</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section id="profile">
+            <div class="section__pic-container">
+                <img src="./assets/profile-pic.png" alt="Miguel Marquez profile picture">
+            </div>
+            <div class="section__text">
+                <p class="section__text__p1">Hello, I'm</p>
+                <h1 class="title">Miguel Marquez</h1>
+                <p class="section__text__p2">CEO of Chess Stake</p>
+                <div id="socials-container">
+                    <a href="https://www.linkedin.com/in/miguel-martin-marquez-guerrero-b63a58245/"><img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon"></a>
+                    <a href="https://github.com/Miguel789D"><img src="./assets/github.png" alt="My Github profile" class="icon"></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2 class="title">About Me</h2>
+            <div class="section-container">
+                <div class="section__pic-container">
+                    <img src="./assets/about-pic.png" alt="Profile picture" class="about-pic">
+                </div>
+                <div class="about-details-container">
+                    <p>I'm 24 years old and live in Lima, Peru. As a self-taught entrepreneur, I'm passionate about bringing ideas to life where they can impact and transform. A phrase that defines me is: "I’m not afraid of failure, and that has led me to achieve incredible things, both professionally and intellectually." I face every challenge with courage, knowing that even in adversity, there is an opportunity to grow and achieve the extraordinary.
+
+                        My skills are mainly focused on project management, business idea validation, and creating viable tests to validate concepts. These competencies are complemented by my coding knowledge, as I am proficient in HTML, CSS, Python, SQL, and JavaScript. This allows me to have a broader vision when creating solutions or working with development teams.
+                        </p>
+                </div>
+            </div>
+            <a href="#experience" class="arrow-link"><img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow"></a>
+        </section>
+
+        <section id="experience">
+            <h2 class="title">Experience</h2>
+            
+            <!-- Primera experiencia -->
+            <div class="section-container">
+                <div class="section__pic-container">
+                    <img src="./assets/Experience1.png" alt="Experience image" class="experience-pic">
+                </div>
+                <div class="experience-details-container">
+                    <h3 class="experience-subtitle">My latest professional experience as a project manager spans a 2-year journey...</h3>
+                    <p>In my last role as a project manager at the Academia de Docencia Aplicada, I undertook a very challenging task, but successfully carried it out with my team. We led a project where we integrated ChatGPT as a generative artificial intelligence tool for teachers in remote areas of Peru. This was an underexplored niche, and the goal was to determine whether Peruvian teachers could use ChatGPT to optimize their work, such as creating lesson plans, curriculum programs, multi-session plans, and resolving cognitive and programmatic conflicts. The project had the potential to significantly reduce the teachers' workload, allowing them to focus on other important aspects of their job. The initial phase involved validating the usefulness of ChatGPT for these purposes, and after 6 months of hard work, we were able to demonstrate that teachers can successfully use this type of tool. This paved the way for the future development of an application specifically adapted for them. As the team leader, I received several accolades for this achievement.</p>
+                </div>
+            </div>
+            
+            <!-- Segunda experiencia -->
+            <div class="section-container">
+                <div class="section__pic-container2">
+                    <img src="./assets/Experience2.png" alt="Second Experience image" class="experience2-pic">
+                </div>
+                <div class="experience-details-container2">
+                    <h3 class="experience-subtitle2">Thanks to the work I was doing daily with the teachers of Peru...</h3>
+                    <p>I was selected to participate and become a member of the national roundtable on the impact of artificial intelligence in education, organized by one of the leading organizations in technology democratization, "Democracia Digital," founded by Elain Ford. I had the opportunity to present my perspective on how populations in remote areas of the capital now have the chance to interact with generative AI and how this brings value to their lives. During this roundtable, I had the opportunity to share ideas with Ernesto Cuadros-Vargas, PhD in Computer Science and founder of the Peruvian Computer Society, and with César Armando Beltrán Castañón, Doctor in Bioinformatics. Sharing different viewpoints helped expand my mind. 
+                        Link: https://democraciadigital.pe/blogs/democracialab-realizo-primera-mesa-redonda-sobre-inteligencia-artificial-educacion</p>
+                </div>
+            </div>
+            
+            <a href="#projects" class="arrow-link"><img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow"></a>
+        </section>
+
+        <section id="projects">
+            <h2 class="title">Achievements</h2>
+            
+            <!-- Primer proyecto -->
+            <div class="section-container">
+                <div class="section__pic-container">
+                    <img src="./assets/Project1.png" alt="Project image" class="project-pic">
+                </div>
+                <div class="project-details-container">
+                    <h3 class="project-subtitle">Putting my coding skills to the test...</h3>
+                    <p>I believe that learning to program is like learning a new sport: if you don't practice frequently, you lose skill and ability. Therefore, regardless of whether I develop personal projects or apply it in my work, working with objectives and participating in competitions is exciting for me and helps my knowledge grow.
+
+                        That's why I participated in the Hackathon organized by the ZealFund investment fund, where 30 teams competed to solve shortcomings in the Peruvian health system. On this occasion, along with my teammate David Huaman, we developed a predictive analysis model for people suffering from pectus excavatum, a condition that causes the chest to sink in and complicates heart function.
+                        
+                        The predictive analysis model would determine whether a patient should undergo surgery or not, as it is a high-risk operation that affects the thorax and heart. We faced many problems in developing this, but we managed to succeed. The main challenge was that we couldn't feed the model with real patient X-rays because we didn't have permission. To solve this, we created synthetic images and held meetings with doctors to properly align the needs. Finally, we were able to win one of the two prizes.
+                    Link: https://hackathon.zltech.io/es#home</p>
+                </div>
+            </div>
+            
+            <!-- Segundo proyecto -->
+            <div class="section-container">
+                <div class="section__pic-container">
+                    <img src="./assets/Project2.png" alt="Second Project image" class="project2-pic">
+                </div>
+                <div class="project-details-container2">
+                    <h3 class="project-subtitle2">Digital Democracy Awards</h3>
+                    <p>In 2023, the work that my team had been doing with Peruvian teachers and the integration of generative artificial intelligence in their teaching practices was awarded a prize that is given annually in Peru, aimed at high-impact digital initiatives in the nation. It was an incredible experience!</p>
+                </div>
+            </div>
+            
+            <a href="#contact" class="arrow-link"><img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow"></a>
+        </section>
+        <section id="contact">
+            <h1 class="title">I'm ready for my next challenge: Chess Stake</h1>
+            <p class="section__text__p1"></p>
+            </div>
+          </section>
+          <footer>
+            <nav>
+              <div class="nav-links-container">
+              </div>
+            </nav>
+            <p>Copyright &#169; 2024 Miguel Marquez. All Rights Reserved.</p>
+          </footer>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
